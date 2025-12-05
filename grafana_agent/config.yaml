@@ -22,7 +22,7 @@ prometheus:
         - job_name: w3up
           scheme: https
           static_configs:
-            - targets: ['up.web3.storage', 'staging.up.web3.storage', 'up.forge.storacha.network', 'staging.up.forge.storacha.network']
+            - targets: ['up.web3.storage', 'staging.up.web3.storage', 'up.forge.storacha.network', 'staging.up.warm.storacha.network']
 
         - job_name: web3_storage
           metrics_path: /metrics
